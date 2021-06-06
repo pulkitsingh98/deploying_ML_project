@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model_deployment</title>
+</head>
+<body>
+    <h1>
+        MODEL DEPLOYMENT
+    </h1>
+    <p>
+        trying to deploy my first model
+
+        P.S. Enter details in order ...!!!
+    </p>
+    <form action="/" method="POST">
+        <input type="text" name="username" placeholder="your name">
+        <input type="text" name="sl" placeholder="session length">
+        <input type="number" name="toa" placeholder="time spent on app">
+        <input type="number" name="tow" placeholder="time spent on website">
+        <input type="number" name="lom" placeholder="length of membership">
+        <input type="submit">
+    </form>
+    {% if yas  %}
+        <p>The Amount spent by the person named as {{name}} is :  {{yas}} </p>
+    {% endif %}    
+</body>
+</html>
